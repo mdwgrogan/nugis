@@ -1,0 +1,3 @@
+test:
+  override:
+    - nosetests --with-xunit --with-coverage
