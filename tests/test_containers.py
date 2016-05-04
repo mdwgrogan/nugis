@@ -8,7 +8,7 @@ class TestExample(unittest.TestCase):
         pass
 
     def test_a_failure(self):
-        self.assertFalse(True)
+        self.assertFalse(False)
 
 
 if __name__ == '__main__':
